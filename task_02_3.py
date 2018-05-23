@@ -8,10 +8,10 @@ while i < 101:
     rules = [(i % 3) == 0, (i % 5) == 0]
     if all(rules):
         print('Fizz Buzz')
-        continue
+
     elif (i % 3) == 0:
         print('Fizz')
-        continue
+
     elif (i % 5) == 0:
         print('Buzz')
     else:
