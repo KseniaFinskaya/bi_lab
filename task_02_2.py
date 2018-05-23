@@ -1,7 +1,4 @@
-""" Task "Purchase money calculation": Write a program to calculate
-total cost.
-One item costs M dollars and N cents. Customer bought L items.
-Print total price in dollars and cents for L items."""
+# task_02_2 "Purchase money calculation"
 
 
 item_price = input('Enter item price, for example, 3.20: ')
