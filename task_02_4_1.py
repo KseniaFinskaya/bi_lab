@@ -1,6 +1,3 @@
-# task_02_4_1 "House Password"
-
-
 import re
 password = str(input('Enter password: '))
 rules = [re.match("[a-zA-Z0-9]+", password),
