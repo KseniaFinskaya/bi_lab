@@ -1,6 +1,3 @@
-# task_02_3 "FizzBuzz"
-
-
 i = 0
 while i < 101:
     i += 1
