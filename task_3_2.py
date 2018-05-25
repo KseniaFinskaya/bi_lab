@@ -10,6 +10,7 @@ a = tuple(list1)
 a = tuple('abc')
 
 # 3
+# var1
 
 
 t1 = ('a', '2', 'gamma')
@@ -27,6 +28,11 @@ else:
     None
 t1 = tuple(l1)
 print(t1)
+
+# var2
+
+
+a, b, c = 'a', 2, 'gamma'
 
 # 4
 
