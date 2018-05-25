@@ -2,7 +2,7 @@
 
 
 def generate_numbers(number=20):
-    print({i**2: i for i in range(1, number+1)})
+    print({i**2: i for i in range(1, number + 1)})
 
 
 generate_numbers(20)
