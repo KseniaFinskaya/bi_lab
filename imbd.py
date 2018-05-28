@@ -3,7 +3,7 @@
 import os.path
 
 
-def open_imdb(n=r'/Users/ksenia/PycharmProjects/task_04/IMDB-Movie-Data.csv'):
+def open_imdb(n=r'D:\Shared_VM\Python for Data Analysis\topics\04\IMDB-Movie-Data.csv'):
     if os.path.exists(n):
         with open(n, 'r+') as imdb:
             read_data = imdb.read()
