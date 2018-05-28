@@ -1,7 +1,8 @@
 # 1
 
 
-list_a = ['ab', 'ac', 'ad', 'bb', 'bc', 'bd']
+list_a = [i + j for i in ['a', 'b'] for j in ['b', 'c', 'd']]
+print(list_a)
 
 # 2
 

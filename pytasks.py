@@ -9,10 +9,9 @@ def generate_numbers(number=20):
 
 
 def count_characters(count_me_string='abcdefgabc'):
-    list_l = list(count_me_string)
     dict_out = {}
     for char in list(count_me_string):
-        dict_out[char] = list_l.count(char)
+        dict_out[char] = count_me_string.count(char)
     print(dict_out)
 
 
