@@ -1,7 +1,7 @@
 import argparse
-import urllib.request as urlrq
 import certifi
 import os.path
+import urllib.request as urlrq
 
 
 parser = argparse.ArgumentParser()
