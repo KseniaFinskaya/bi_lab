@@ -6,7 +6,8 @@ import os.path
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--input', action='store',
-                    default='https://www.kaggle.com/PromptCloudHQ/imdb-data/downloads/'
+                    default='https://www.kaggle.com'
+                    '/PromptCloudHQ/imdb-data/downloads/'
                             'imdb-data-from-2006-to-2016.zip')
 args = parser.parse_args()
 
