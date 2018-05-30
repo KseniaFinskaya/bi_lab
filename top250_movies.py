@@ -3,8 +3,8 @@ import decimal
 import itertools
 
 
-with open('/Users/ksenia/IMDB-Movie-Data.csv', 'r') as ifile, \
-        open('/Users/ksenia/top250_movies.csv', 'w') as ofile:
+with open('IMDB-Movie-Data.csv', 'r') as ifile, \
+        open('top250_movies.csv', 'w') as ofile:
     reader = csv.DictReader(ifile)
     sortfile = sorted(reader, key=lambda x: decimal.Decimal(x['Rating']),
                       reverse=True)
