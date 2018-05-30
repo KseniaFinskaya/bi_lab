@@ -1,14 +1,15 @@
 import argparse
-import urllib.request as urlrq
 import certifi
 import os.path
+import urllib.request as urlrq
 
 
 parser = argparse.ArgumentParser()
 
 
 parser.add_argument('--input', action='store',
-                    default='https://www.kaggle.com/PromptCloudHQ/imdb-data/downloads/'
+                    default='https://www.kaggle.com'
+                    '/PromptCloudHQ/imdb-data/downloads/'
                             'imdb-data-from-2006-to-2016.zip')
 
 
