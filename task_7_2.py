@@ -1,6 +1,6 @@
 import argparse
-import pandas as pd
 import os.path
+import pandas as pd
 
 
 parser = argparse.ArgumentParser()
