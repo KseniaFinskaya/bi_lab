@@ -1,8 +1,8 @@
 from ftplib import FTP
 import gzip
 import os.path
-import shutil
 import re
+import shutil
 
 
 url = 'ftp.fu-berlin.de/pub/misc/movies/database/frozendata/ratings.list.gz'
@@ -21,7 +21,6 @@ else:
         ftp.cwd(subdir)
         with open(localfile, 'wb') as lf:
             ftp.retrbinary('RETR ' + localfile, lf.write)
-            lf.close()
-            with gzip.open(localfile, 'rb') as gfile:
-                with open(filename, 'wb') as f_out:
-                    shutil.copyfileobj(gfile, f_out)
+        with gzip.open(localfile, 'rb') as gfile:
+            with open(filename, 'wb') as f_out:
+                shutil.copyfileobj(gfile, f_out)
